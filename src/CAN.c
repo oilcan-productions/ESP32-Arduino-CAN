@@ -6,6 +6,7 @@
  * Copyright (c) 2017, Thomas Barth, barth-dev.de
  *               2017, Jaime Breva, jbreva@nayarsystems.com
  * 				 2018, Michael Wagner, mw@iot-make.de
+ * 				 2023, Mike Kostersitz, mike@oilcan.mobi
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -34,7 +35,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/queue.h"
 
-#include "esp_intr.h"
+#include "esp_intr_alloc.h"
 #include "soc/dport_reg.h"
 #include <math.h>
 
