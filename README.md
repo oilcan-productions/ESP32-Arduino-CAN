@@ -1,4 +1,7 @@
 # Arduino Library for the ESP32 CAN Bus (ESP32-Arduino-CAN)
+## Why forking it
+The original project has not seen movement in a few years. Some dependencies are being deprecated.
+Need a more up to date version of the code.
 
 ## Features
 
